@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main theme for the application -->
+    <style name="Theme.ChatbotHukum" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!-- Base text styles -->
+    <style name="BaseTextFontBold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">#464E5F</item>
+    </style>
+
+    <style name="BaseTextFontBoldRed">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">#FF1818</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="BaseTextFontRegular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">#464E5F</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Login specific styles -->
+    <style name="TextFontBoldLogin" parent="BaseTextFontBold"/>
+    <style name="TextFontRegularLogin" parent="BaseTextFontRegular"/>
+
+    <!-- Main specific styles -->
+    <style name="TextFontBoldMain" parent="BaseTextFontBold"/>
+    <style name="TextFontRegularMain" parent="BaseTextFontRegular"/>
+    <style name="TextFontBoldRed" parent="BaseTextFontBoldRed"/>
+
+    <!-- Base button style -->
+    <style name="BaseButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">32dp</item>
+        <item name="android:paddingEnd">32dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+    </style>
+
+    <!-- Edit profile button style -->
+<!--    <style name="EditProfileButtonStyle" parent="BaseButtonStyle">-->
+<!--        <item name="icon">@drawable/baseline_edit_24</item>-->
+<!--        <item name="backgroundTint">#FA9F51</item>-->
+<!--    </style>-->
+
+    <!-- Change password button style -->
+    <style name="ChangePasswordButtonStyle" parent="BaseButtonStyle">
+        <item name="backgroundTint">#4445B6</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <!-- Profile title text style -->
+    <style name="ProfileTitleTextStyle" parent="BaseTextFontBold">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#464E5F</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <!-- Logout button style -->
+    <style name="LogoutButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">32dp</item>
+        <item name="android:paddingEnd">32dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="android:textColor">#FF0000</item>
+        <item name="strokeColor">#FF0000</item>
+        <item name="strokeWidth">1.5dp</item>
+    </style>
+
+    <!-- Splash Screen -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/chatbot_hukum_splashscreen</item>
+        <item name="android:windowSplashScreenBehavior">icon_preferred</item>
+        <item name="postSplashScreenTheme">@style/Theme.ChatbotHukum</item>
+    </style>
+
+</resources>

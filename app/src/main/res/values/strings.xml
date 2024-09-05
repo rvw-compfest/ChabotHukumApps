@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ChatbotHukum</string>
+    <string name="welcome_home">Welcome</string>
+    <string name="title_register">Register</string>
+    <string name="sub_title_register">Let\'s register first</string>
+    <string name="name">Name</string>
+    <string name="usernameoremail">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="register_text_button">Register here</string>
+    <string name="title_login">Login</string>
+    <string name="sub_title_login">Have an account already? Let\'s Login</string>
+    <string name="login">Login</string>
+    <string name="login_text_button">LogIn here</string>
+    <string name="logout">Logout</string>
+    <string name="email">Email</string>
+    <string name="type_a_message">Type a message</string>
+</resources>
